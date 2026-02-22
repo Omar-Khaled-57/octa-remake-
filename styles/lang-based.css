@@ -1,0 +1,67 @@
+html[lang="ar"] {
+  font-family: var(--f-m-ar);
+}
+
+html[lang="en"] {
+  font-family: var(--f-m-en);
+}
+
+html[lang="en"] footer {
+  font-family: var(--f-m-en);
+}
+
+html[lang="en"] .lang-btn {
+  @apply translate-y-[51%]
+}
+
+html[lang="ar"] .lang-btn {
+  @apply translate-y-[41%]
+}
+
+html[lang="ar"] h3.lang-txt {
+  translate: 0 -12%;
+}
+
+html[lang="en"] #hero p {
+  text-shadow: 0 0 3px #ffffff;
+}
+
+html[lang="en"] .op {
+  font-family: var(--font-league-gothic), var(--f-m-en);
+  font-weight: 700;
+  font-size: clamp(5rem, 5vw, 20rem);
+  text-shadow: rgba(27, 27, 27, 0.725) 7px 7px 0px;
+}
+
+html[lang="en"] .otu {
+  font-style: italic;
+}
+
+html[lang="ar"] .op {
+  font-weight: 700;
+  font-size: clamp(5rem, 2vw, 15rem);
+  text-shadow: rgba(27, 27, 27, 0.725) 5px 5px 0px;
+}
+
+@media (orientation: portrait) and (max-width: 767px){
+  .op {
+  text-shadow: rgba(27, 27, 27, 0.725) 5px 5px 0px;
+  }
+  html[lang="ar"] .op {
+    font-size: clamp(2rem, 15vw, 15rem);
+  }
+}
+
+html[lang="ar"] .mj, #majors .face.face1 h3{
+  font-family: var(--font-cairo), sans-serif;
+  line-height: 1.2em;
+}
+
+html[lang="ar"] #majors .face.face2 {
+  font-size: clamp(1rem, 140%, 6rem);
+  font-weight: 400;
+}
+
+html[lang="en"] .mj{
+  font-weight: 700;
+}

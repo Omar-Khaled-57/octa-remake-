@@ -1,0 +1,122 @@
+/* =========================================================
+   FONT VARIABLES
+========================================================= */
+
+:root {
+  --f-m-ar: var(--font-cairo), sans-serif;
+  --f-m-en: var(--font-open-sans), sans-serif;
+}
+
+/* =========================================================
+   THEME VARIABLES (DARK — DEFAULT)
+========================================================= */
+
+:root {
+  /* Base */
+  --background: #192029;
+  --text: #ffffff;
+  --faded-text: #d1d5db;
+  --font-color: rgba(255, 255, 255, 0.6);
+
+  /* UI */
+  --card-bg: #293240;
+  --navbar-color: #00000094;
+  --flexible-color: #7676765e;
+  --h2-color: #ffffff;
+
+  /* Accent / Brand */
+  --f-green-0: #00ff62;
+  --f-green-1: #2BFF4B;
+  --f-green-2: #2BFF6C;
+  --f-green-3: #1fad4a;
+  --f-cyan-1: #2bdfff;
+
+  /* Utilities */
+  --idk-y: invert(1);
+  --svg-fill: #60a5fa;
+
+  /* Section 3 */
+  --sec3-bg: linear-gradient(
+    to bottom,
+    hsl(221, 39%, 11%),
+    hsl(215, 28%, 17%)
+  );
+
+  --sec3-cards-border: #374151;
+
+  --sec3-card1-bg: #1e3a8a4d;
+  --sec3-card2-bg: #581c874d;
+  --sec3-card3-bg: #064e3b4d;
+
+  --sec3-card1-text: #60a5fa;
+  --sec3-card2-text: #c084fc;
+  --sec3-card3-text: #059669;
+
+  --sec3-card1-hover-glow: #1e40af;
+  --sec3-card2-hover-glow: #6b21a8;
+  --sec3-card3-hover-glow: #065f46;
+
+  /* Titles */
+  --title-b: rgb(55 65 81 / 1);
+  --title-bg: rgb(31 41 55 / 0.5);
+
+  /* Article */
+  --article-bg: #1f2937;
+  --article-b: #374151;
+}
+
+/* =========================================================
+   LIGHT THEME OVERRIDES
+========================================================= */
+
+html[data-theme="light"] {
+  /* Base */
+  --background: #c8c8c8;
+  --text: #111827;
+  --faded-text: #4b5563;
+  --font-color: rgba(0, 0, 0, 0.6);
+
+  /* UI */
+  --card-bg: #f9f9f9;
+  --navbar-color: #ffffff94;
+  --h2-color: #000000;
+
+  /* Accent */
+  --f-green-1: #1B9A3D;
+  --f-green-2: #1B9A5D;
+  --f-green-3: #36ce84;
+  --f-cyan-1: #0f5d6b;
+
+
+  /* Utilities */
+  --idk-y: invert(0);
+
+  /* Section 3 */
+  --sec3-bg: linear-gradient(
+    to bottom,
+    hsl(0, 0%, 98%),
+    hsl(0, 0%, 100%)
+  );
+
+  --sec3-cards-border: #e9e9e9;
+
+  --sec3-card1-bg: #eff6ff;
+  --sec3-card2-bg: #faf5ff; 
+  --sec3-card3-bg: #c5f2dd;
+
+  --sec3-card1-text: #2563eb;
+  --sec3-card2-text: #9333ea;
+  --sec3-card3-text: #0aa179;
+
+  --sec3-card1-hover-glow: #bfdbfe;
+  --sec3-card2-hover-glow: #e9d5ff;
+  --sec3-card3-hover-glow: #a7f3d0;
+
+  /* Titles */
+  --title-b: rgba(88, 89, 94, 0.669);
+  --title-bg: rgb(255 255 255 / 0.5);
+
+  /* Article */
+  --article-bg: #ebebeb;
+  @apply bg-emerald-50 dark:bg-emerald-900/30
+}

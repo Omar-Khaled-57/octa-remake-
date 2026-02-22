@@ -1,0 +1,507 @@
+{
+  "NavbarLinks": {
+    "majors": "Majors",
+    "aboutUs": "About Us",
+    "howToApply": "How to Apply",
+    "officialPlatform": "Official Platform",
+    "researchInnovation": "Research",
+    "studentLife": "Student Life",
+    "newsEvents": "News"
+  },
+  "Hero": {
+    "op": "Octa <br></br>Projects",
+    "o": "Octa",
+    "p": "Projects",
+    "description": "October Technological University has been working since 2021 on motivating students from different faculties to prepare their own projects. This website presents those projects, including this very website, which was prepared by a second-year student.<br></br><br></br>It has now been remade almost a year later with some differences: improved web development skills and a late rejection of the idea due to miscommunication.",
+    "disclaimer": "The projects on this site are not real for legal purposes."
+  },
+  "Majors": {
+    "title": "Majors",
+    "description": "Explore the various majors available<br></br> at October Technological University.",
+    "switchHeading": "Switch Majors",
+    "it-title": "Information Technology",
+    "it": "Information technology projects include hardware, software, IoT, and web development.",
+    "rail-title": "Railway Technology",
+    "rail": "Railway technology enhances safety, efficiency, and automation.",
+    "tex-title": "Textile Technology",
+    "tex": "Textile technology focuses on operating and maintaining equipment.",
+    "food-title": "Food Industry Technology",
+    "food": "Food industry technology focuses on product development and food safety.",
+    "dental-title": "Dental Implants",
+    "dental": "Dental implant technology includes materials, design, and installation.",
+    "drugs-title": "<strong>Pharmaceutical Manufacturing</strong>",
+    "drugs": "Pharmaceutical manufacturing focuses on quality and production efficiency.",
+    "mid-title": "Medical Information Management",
+    "medicalInfo": "Medical information management focuses on healthcare data systems.",
+    "soon-title": "Coming Soon",
+    "soon": "Will be available in the second semester. (no got rejected)",
+    "switchLabel": "Displaying majors",
+    "industryFaculty": "Technology of Industrial and Energy",
+    "medicalFaculty": "Medical Sciences Technology",
+    "none": "No majors here"
+  },
+  "SupportSection": {
+    "title": "How We Support Student Projects",
+    "subtitle": "October Technological University provides comprehensive support systems to help students turn their ideas into reality and compete at the highest levels.",
+    "cards": {
+      "resources": {
+        "title": "Advanced Resources",
+        "description": "Access to state-of-the-art labs, equipment, and software to build and test your projects.",
+        "bullet1": "24/7 access to specialized labs",
+        "bullet2": "Modern hardware and software tools"
+      },
+      "mentorship": {
+        "title": "Expert Mentorship",
+        "description": "Guidance from experienced faculty and industry professionals to refine your ideas and execution.",
+        "bullet1": "One-on-one faculty advising",
+        "bullet2": "Industry expert workshops"
+      },
+      "opportunities": {
+        "title": "Competition Opportunities",
+        "description": "Multiple platforms to showcase your work, from local exhibitions to international competitions.",
+        "bullet1": "Annual university project fair",
+        "bullet2": "Support for national and international contests"
+      }
+    }
+  },
+  "footer": {
+    "universityName": "October Technological University",
+    "description": "A leading educational beacon in 6th of October City, preparing graduates equipped with knowledge and skills to compete in the labor market.",
+    "quickLinks": "Quick Links",
+    "aboutUniversity": "About University",
+    "academicPrograms": "Academic Programs",
+    "admissions": "Admissions",
+    "researchInnovation": "Research & Innovation",
+    "studentLife": "Student Life",
+    "newsEvents": "News & Events",
+    "contactInfo": "Contact Info",
+    "addressLine1": "6th of October City, Giza Governorate",
+    "addressLine2": "Greater Cairo, Egypt",
+    "phone": "0212345678",
+    "email": "info@otuniversity.edu.eg",
+    "accreditation": "Accreditation",
+    "accreditation1": "All degrees are accredited and equivalent by the Supreme Council of Universities.",
+    "accreditation2": "Programs accredited by the National Authority for Quality Assurance and Accreditation of Education (NAQAAE).",
+    "learnMore": "Learn more on Wikipedia",
+    "copyright": "©2025 October Technological University. All rights reserved.",
+    "founded": "Founded in 2022 | 6th of October City, Egypt",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "accessibility": "Accessibility",
+    "siteMap": "Site Map",
+    "missionStatement": "Achieving leadership and excellence in practical engineering education and training, scientific excellence, environmental development and community service."
+  },
+  "FeaturesSection": {
+    "title": "Why Choose Our University?",
+    "subtitle": "Discover the exceptional features that make our university the ideal choice for your education",
+    "secure": {
+      "title": "Safe Campus",
+      "description": "A secure learning environment with comprehensive safety measures and support systems"
+    },
+    "quality": {
+      "title": "Academic Excellence",
+      "description": "World-class education with accredited programs and distinguished faculty members"
+    },
+    "community": {
+      "title": "Vibrant Community",
+      "description": "Join a diverse and supportive community of students, alumni, and academic professionals"
+    }
+  },
+  "slider": {
+    "ai_campus_management": "AI-Powered Campus Management System",
+    "intelligent_railway_monitoring": "Intelligent Railway Monitoring Platform",
+    "smart_textile_health_wearables": "Smart Textile Health Monitoring Wearables",
+    "ai_food_quality_inspection": "AI-Driven Food Quality Inspection System",
+    "d_printed_dental_solutions": "3D-Printed Custom Dental Solutions",
+    "automated_pharmaceutical_manufacturing": "Automated Pharmaceutical Manufacturing Line",
+    "smart_city_traffic_management": "Smart City Traffic Management System",
+    "digital_twin_railway_infrastructure": "Digital Twin Railway Infrastructure System",
+    "ml_drug_discovery": "Machine Learning for Drug Discovery",
+    "robotic_advanced_manufacturing": "Robotic Advanced Manufacturing System",
+    "previous_slide": "Previous slide",
+    "next_slide": "Next slide",
+    "go_to_slide": "Go to slide"
+  },
+  "About": {
+    "title": "About October Technological University",
+    "subtitle": "Pioneering Technological Education in Egypt",
+    "founded": "Year Founded",
+    "faculties": "Specialized Faculties",
+    "programs": "Technical Programs",
+    "missionTitle": "Our Mission",
+    "mission": "To provide high-quality technological education that meets international standards, preparing competent professionals who contribute to Egypt's industrial and medical sectors through innovative research and practical application.",
+    "visionTitle": "Our Vision",
+    "vision": "To become a leading technological university in the Middle East, recognized for excellence in applied sciences, innovation, and producing graduates who drive technological advancement and economic growth.",
+    "historyTitle": "Our History",
+    "historySubtitle": "A journey of technological advancement and educational innovation",
+    "history2022": "October Technological University was established as a public university under Presidential Decree No. 290 of 2016, focusing on applied technological education.",
+    "history2023": "Launched the Faculty of Industrial Technology with initial programs in Information Technology and Rail Systems Technology.",
+    "history2024": "Expanded programs to include Textile Technology and Food Industries Technology, responding to Egypt's industrial needs.",
+    "history2025": "Established the Faculty of Medical Technology, introducing programs in Dental Technology, Pharmacy Technology, and Medical Informatics.",
+    "historyPresent": "Continuing to expand with new programs, industry partnerships, and research initiatives that bridge technology with practical applications.",
+    "present": "Present Day",
+    "facultiesTitle": "Our Faculties",
+    "facultiesDescription": "Two specialized faculties offering cutting-edge technological education",
+    "industryDescription": "Focused on developing technical professionals for Egypt's growing industrial sector. Programs combine theoretical knowledge with hands-on training in state-of-the-art laboratories and workshops.",
+    "medicalDescription": "Training healthcare technologists to support Egypt's medical sector with advanced technical skills in dental, pharmaceutical, and medical information systems.",
+    "locationTitle": "Our Campus",
+    "maps1": "6th of October City",
+    "maps2": "Giza Governorate, Egypt",
+    "locationDescription": "Strategically located in 6th of October City, a hub for technological and industrial development",
+    "ctaTitle": "Join Our Technological Community",
+    "ctaDescription": "Be part of Egypt's future in technological advancement and innovation",
+    "applyNow": "Apply Now",
+    "contactUs": "Contact Us",
+    "industryBullet1": "Industry-aligned curriculum",
+    "industryBullet2": "Modern laboratories and equipment",
+    "industryBullet3": "Internship opportunities",
+    "medicalBullet1": "Clinical simulation centers",
+    "medicalBullet2": "Hospital partnerships",
+    "medicalBullet3": "Certified training programs",
+    "campusFeaturesTitle": "Campus Features",
+    "feature1Title": "Modern Facilities",
+    "feature1Desc": "Advanced laboratories, workshops, and specialized equipment for hands-on training",
+    "feature2Title": "Secure Environment",
+    "feature2Desc": "24/7 security and modern safety systems throughout the campus",
+    "feature3Title": "Student Life",
+    "feature3Desc": "Active student clubs, sports facilities, and cultural activities"
+  },
+  "P-Majors": {
+    "switchHeading": "Explore Our Faculties",
+    "switchLabel": "Select Faculty",
+    "industryFaculty": "Faculty of Industrial Technology",
+    "medicalFaculty": "Faculty of Medical Technology"
+  },
+  "Programs": {
+    "title": "Academic Programs",
+    "subtitle": "Cutting-edge technological education tailored to industry needs",
+    "stats": {
+      "programs": "Specialized Programs",
+      "faculties": "Faculties",
+      "employment": "Employment Rate"
+    },
+    "facultiesTitle": "Explore Our Faculties",
+    "facultiesDescription": "Choose your path and discover the programs that match your ambition",
+    "learnMore": "Learn more",
+    "highlightsTitle": "Why Choose Our Programs",
+    "highlightsSubtitle": "Industry-aligned curriculum, expert faculty, and modern facilities",
+    "highlight1Title": "Hands-on Training",
+    "highlight1Desc": "State-of-the-art labs and workshops with real-world equipment.",
+    "highlight2Title": "Industry Partnerships",
+    "highlight2Desc": "Collaborations with leading companies for internships and job placements.",
+    "highlight3Title": "Research Opportunities",
+    "highlight3Desc": "Engage in applied research projects with faculty mentors.",
+    "highlight4Title": "International Standards",
+    "highlight4Desc": "Curriculum designed to meet global accreditation requirements.",
+    "ctaTitle": "Ready to Start Your Journey?",
+    "ctaDescription": "Apply now and become part of a new generation of technological innovators.",
+    "applyNow": "Apply Now",
+    "contactAdmissions": "Contact Admissions",
+    "industry": {
+      "it": {
+        "title": "Information Technology",
+        "desc": "Focus on software development, networking, and cybersecurity with hands-on labs."
+      },
+      "rail": {
+        "title": "Rail Systems Technology",
+        "desc": "Specialized training in railway engineering, signaling, and maintenance."
+      },
+      "textile": {
+        "title": "Textile Technology",
+        "desc": "Innovations in textile manufacturing, material science, and quality control."
+      },
+      "food": {
+        "title": "Food Industries Technology",
+        "desc": "Food processing, safety standards, and production line management."
+      }
+    },
+    "medical": {
+      "dental": {
+        "title": "Dental Technology",
+        "desc": "Dental prosthetics, orthodontic appliances, and digital dentistry."
+      },
+      "pharmacy": {
+        "title": "Pharmacy Technology",
+        "desc": "Pharmaceutical compounding, drug safety, and laboratory techniques."
+      },
+      "informatics": {
+        "title": "Medical Informatics",
+        "desc": "Health information systems, data analytics, and telemedicine solutions."
+      },
+      "biomed": {
+        "title": "Biomedical Equipment Technology",
+        "desc": "Maintenance and operation of medical devices and diagnostic equipment."
+      }
+    }
+  },
+  "Admissions": {
+    "title": "Admissions",
+    "subtitle": "Join October Technological University for the academic year 2025/2026",
+    "academicYear": "Academic Year",
+    "deadline": "30 Aug",
+    "applicationDeadline": "Application Deadline",
+    "faculties": "Faculties",
+    "documentsTitle": "Required Documents",
+    "documentsSubtitle": "Please prepare the following documents for your application",
+    "doc1": "High School Certificate",
+    "doc1Desc": "Original + copy",
+    "doc2": "Final Nomination Card",
+    "doc2Desc": "Printed from Tansik website + copy",
+    "doc3": "Military Papers (Males)",
+    "doc3Desc": "Form 6 + Form 2 Jund + copy",
+    "doc4": "Birth Certificate",
+    "doc4Desc": "Original + 2 copies (recent)",
+    "doc5": "Personal Photos",
+    "doc5Desc": "6 recent 4×6 photos (name on back)",
+    "doc6": "Tuition Fee Receipt",
+    "doc6Desc": "Paid at university treasury",
+    "additionalDocs": "Additional Required Items",
+    "add1": "5 copies of student's national ID",
+    "add2": "5 copies of guardian's national ID",
+    "add3": "10 transparent plastic folders",
+    "add4": "1 plastic folder with capsule",
+    "formsTitle": "Required Forms",
+    "formsSubtitle": "Download and complete the following forms before coming to the university",
+    "healthFaculty": "Faculty of Health Sciences",
+    "healthFacultyDesc": "Download the application forms for the Faculty of Health Sciences",
+    "industryFaculty": "Faculty of Industrial Technology",
+    "industryFacultyDesc": "Download the application forms for the Faculty of Industrial Technology",
+    "form1": "2 Declarations",
+    "form2": "Preferences Form",
+    "form3": "Data Form",
+    "form4": "Medical Examination Form (2 copies)",
+    "downloadForms": "Download Forms",
+    "noteTitle": "Important Note for Students",
+    "noteText": "Make sure to bring all required documents complete before heading to the Student Affairs office. Submitting files on time ensures quick completion of registration procedures.",
+    "imageAlt": "October Technological University Campus",
+    "whyJoin": "Why Join OTU?",
+    "whyJoinDesc": "October Technological University offers a unique blend of theoretical knowledge and practical training, preparing you for a successful career in technology and industry.",
+    "learnMore": "Learn more about us",
+    "ctaTitle": "Ready to Apply?",
+    "ctaDesc": "Secure your place at October Technological University for the academic year 2025/2026.",
+    "applyNow": "Apply Now",
+    "contactUs": "Contact Us"
+  },
+  "Research": {
+    "title": "Research & Innovation",
+    "subtitle": "Advancing knowledge and technology through applied research",
+    "stats": {
+      "projects": "Active Research Projects",
+      "centers": "Research Centers",
+      "publications": "Publications"
+    },
+    "areasTitle": "Our Research Areas",
+    "areasSubtitle": "Focusing on fields that drive technological and industrial progress",
+    "area1": "Artificial Intelligence & Data Science",
+    "area1Desc": "Developing intelligent systems for industrial and medical applications.",
+    "area2": "Advanced Manufacturing & Materials",
+    "area2Desc": "Innovations in production processes and new material development.",
+    "area3": "Biomedical Technology",
+    "area3Desc": "Medical devices, diagnostics, and healthcare informatics.",
+    "area4": "Renewable Energy & Sustainability",
+    "area4Desc": "Solar, wind, and energy efficiency technologies.",
+    "area5": "Industrial Automation & Robotics",
+    "area5Desc": "Smart factories, control systems, and autonomous robots.",
+    "area6": "Cybersecurity",
+    "area6Desc": "Network security, cryptography, and threat detection.",
+    "centersTitle": "Our Research Centers",
+    "centersSubtitle": "Dedicated hubs for innovation and collaboration",
+    "center1": "Center for AI and Data Science",
+    "center1Desc": "Focuses on machine learning, big data analytics, and intelligent systems for industry and healthcare.",
+    "center2": "Advanced Manufacturing Lab",
+    "center2Desc": "State-of-the-art facility for 3D printing, CNC machining, and material testing.",
+    "center3": "Biomedical Innovation Hub",
+    "center3Desc": "Developing medical devices and digital health solutions in collaboration with hospitals.",
+    "center4": "Renewable Energy Research Unit",
+    "center4Desc": "Exploring solar and wind energy solutions for sustainable development.",
+    "learnMore": "Learn more",
+    "partnersTitle": "Research Partners",
+    "partnersSubtitle": "Collaborating with industry and academia to drive innovation",
+    "partner": "Partner",
+    "ctaTitle": "Collaborate With Us",
+    "ctaDesc": "Partner with our researchers or explore opportunities for joint projects.",
+    "contact": "Contact Research Office"
+  },
+  "StudentLife": {
+    "title": "Student Life",
+    "subtitle": "Experience a vibrant campus community beyond the classroom",
+    "clubs": "30+ Student Clubs",
+    "clubsDesc": "From robotics to drama, find your passion.",
+    "sports": "Sports Facilities",
+    "sportsDesc": "Gym, football fields, basketball courts, and more.",
+    "events": "Annual Events",
+    "eventsDesc": "Cultural festivals, tech conferences, and competitions.",
+    "campusImageAlt": "Students on campus",
+    "campusTitle": "A Place to Grow",
+    "campusDesc": "Our campus is designed to foster creativity, collaboration, and well-being. From modern classrooms to relaxation areas, every space supports your journey.",
+    "feature1": "Modern library with digital resources",
+    "feature2": "Cafeterias and student lounges",
+    "feature3": "Health and wellness center",
+    "clubsTitle": "Student Clubs & Organizations",
+    "clubsSubtitle": "Join a community of like-minded peers and develop new skills.",
+    "housingTitle": "Student Housing",
+    "housingDesc": "Comfortable and affordable accommodation options near campus.",
+    "housingMore": "Learn more about housing",
+    "supportTitle": "Student Support Services",
+    "supportDesc": "Academic advising, career counseling, and mental health resources.",
+    "supportMore": "Explore support services",
+    "ctaTitle": "Experience OTU Life",
+    "ctaDesc": "Come visit our campus or join a virtual tour.",
+    "scheduleTour": "Schedule a Tour"
+  },
+  "NewsEvents": {
+    "title": "News & Events",
+    "subtitle": "Stay updated with the latest happenings at OTU",
+    "news": "News",
+    "events": "Events",
+    "readMore": "Read more",
+    "time": "Time",
+    "location": "Location",
+    "eventDetails": "Event details",
+    "ctaTitle": "Never Miss an Update",
+    "ctaDesc": "Subscribe to our newsletter to receive the latest news and events.",
+    "emailPlaceholder": "Your email address",
+    "subscribe": "Subscribe",
+    "successMessage": "Thank you for subscribing! You'll receive the latest news soon."
+  },
+  "News": {
+    "item1": {
+      "title": "OTU Signs Partnership with Siemens",
+      "excerpt": "New collaboration to enhance engineering education and provide student training."
+    },
+    "item2": {
+      "title": "Research Conference on AI in Healthcare",
+      "excerpt": "Faculty and students present cutting-edge research at international conference."
+    },
+    "item3": {
+      "title": "Student Team Wins Robotics Competition",
+      "excerpt": "OTU robotics club takes first place in national competition."
+    }
+  },
+  "Events": {
+    "item1": {
+      "title": "Open Day 2025",
+      "location": "Main Campus"
+    },
+    "item2": {
+      "title": "Workshop: Introduction to IoT",
+      "location": "Engineering Building"
+    },
+    "item3": {
+      "title": "Career Fair 2025",
+      "location": "Student Center"
+    }
+  },
+  "learnMore": {
+    "programs": "Learn more about our programs",
+    "studentLife": "Learn more about student life"
+  },
+  "Projects": {
+    "title": "Student Projects",
+    "subtitle": "Innovative work by our talented students",
+    "searchPlaceholder": "Search projects...",
+    "filterByLevel": "Filter by level",
+    "filterByTags": "Filter by tags",
+    "allTags": "All",
+    "projectsFound": "projects found",
+    "clearFilters": "Clear all filters",
+    "noProjects": "No projects found matching your criteria.",
+    "level": "Grade / level",
+    "leader": "Leader",
+    "team": "Team",
+    "members": "members",
+    "sort": {
+      "yearDesc": "Year (newest first)",
+      "yearAsc": "Year (oldest first)",
+      "nameAsc": "Name (A-Z)",
+      "nameDesc": "Name (Z-A)",
+      "levelAsc": "Level (1st → 4th)",
+      "levelDesc": "Level (4th → 1st)"
+    },
+    "levels": {
+      "1st_year": "1st year",
+      "2nd_year": "2nd year",
+      "3rd_year": "3rd year",
+      "4th_year": "4th year"
+    },
+    "it001": {
+      "name": "AI-Powered Academic Advisor",
+      "description": "An intelligent system that recommends courses and career paths based on student performance and interests using machine learning algorithms.",
+      "leader": "Mariam Khaled",
+      "student1": "Ahmed Samir",
+      "student2": "Nourhan Youssef",
+      "student3": "Omar Adel"
+    },
+    "it002": {
+      "name": "IoT Smart Factory Monitoring",
+      "description": "A real-time monitoring system for industrial machines using IoT sensors, providing predictive maintenance alerts and efficiency analytics.",
+      "leader": "Youssef Hossam",
+      "student1": "Ali Mostafa",
+      "student2": "Hana Tarek",
+      "student3": "Mariam Ehab"
+    },
+    "it003": {
+      "name": "Blockchain-Based Certificate Verification",
+      "description": "A decentralized platform to issue and verify academic certificates, preventing forgery and ensuring trust.",
+      "leader": "Khaled Ahmed",
+      "student1": "Nada Ali",
+      "student2": "Omar Hassan",
+      "student3": "Sara Mostafa"
+    },
+    "it004": {
+      "name": "AR Maintenance Assistant for Industrial Equipment",
+      "description": "An augmented reality app that overlays instructions and diagrams on machinery to assist technicians during maintenance.",
+      "leader": "Hossam Eldin",
+      "student1": "Mai Ahmed",
+      "student2": "Youssef Adel",
+      "student3": "Nourhan Samir"
+    },
+    "it005": {
+      "name": "Smart Campus Energy Management System",
+      "description": "An IoT-based system that monitors and optimizes energy consumption across campus buildings using real-time data and predictive analytics.",
+      "leader": "Ahmed Reda",
+      "student1": "Mariam Tarek",
+      "student2": "Omar Khaled",
+      "student3": "Nour Youssef"
+    },
+    "it006": {
+      "name": "Predictive Maintenance for Wind Turbines",
+      "description": "Using vibration and temperature sensors with machine learning to predict failures in wind turbines before they occur.",
+      "leader": "Mona Essam",
+      "student1": "Hassan Ali",
+      "student2": "Rania Gamal",
+      "student3": "Yassin Adel"
+    },
+    "it007": {
+      "name": "AI-Based Resume Screener",
+      "description": "A tool that automatically screens and ranks job applicants based on their CVs using natural language processing.",
+      "leader": "Nourhan Ashraf",
+      "student1": "Ahmed Mostafa",
+      "student2": "Sara Khaled",
+      "student3": "Omar Hany"
+    },
+    "it008": {
+      "name": "Cloud-Based Patient Record System",
+      "description": "A secure, scalable cloud platform for storing and accessing electronic health records, with role-based access control.",
+      "leader": "Youssef Adel",
+      "student1": "Mariam Yasser",
+      "student2": "Khaled Mostafa",
+      "student3": "Nada Ahmed"
+    },
+    "it009": {
+      "name": "Autonomous Drone for Crop Monitoring",
+      "description": "A drone equipped with multispectral cameras and AI to monitor crop health and detect diseases early.",
+      "leader": "Omar Hesham",
+      "student1": "Nada Sherif",
+      "student2": "Mohamed Alaa",
+      "student3": "Salma Yasser"
+    },
+    "it010": {
+      "name": "Smart Inventory Management with RFID",
+      "description": "An RFID-based system that tracks inventory in real time and automates reordering when stock is low.",
+      "leader": "Hassan Ibrahim",
+      "student1": "Amira Saad",
+      "student2": "Khaled Mostafa"
+    }
+  }
+}

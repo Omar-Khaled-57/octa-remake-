@@ -1,0 +1,108 @@
+/* ================= FACE BASE ================= */
+.face {
+    width: clamp(300px, 18vw, 1200px);
+    aspect-ratio: 5 / 3;
+    letter-spacing: 0.05em;
+    box-shadow: rgba(0, 0, 0, 0.5) 15px 20px 10px;
+}
+
+/* ---------- FACE 1 ---------- */
+.face.face1 {
+    font-weight: 800;
+    transition: all 0.3s ease-in-out;
+}
+
+.face.face1 h3 {
+    font-size: clamp(1.5rem, 1.5vw, 6rem);
+}
+
+.face.face1 h3 strong{
+    font-size: clamp(1.35rem, 1vw, 4rem);
+}
+
+/* ---------- FACE 2 (BORDER → PANEL) ---------- */
+.face.face2 {
+    max-height: 0.75rem;
+    overflow: hidden;
+
+    background-color: var(--f-green-0);
+    color: transparent;
+
+    font-size: clamp(1rem, 1.1vw, 6rem);
+    font-weight: 600;
+
+    transition:
+        max-height 0.45s ease-in-out,
+        background-color 0.3s ease 0.25s,
+        color 0.2s ease-in-out;
+}
+
+/* ================= CARD WRAPPER ================= */
+.card-wrapper {
+    @apply my-[2%];
+    transition: transform 0.3s ease-in-out, margin-top 0.3s ease-in-out;
+}
+
+.card-wrapper.hover, .card-wrapper:hover {
+    @apply mt-[10vh];
+}
+
+.card-wrapper:hover,
+.card-wrapper.hover {
+    transform: translateY(-20%);
+}
+
+/* ---------- FACE 1 ON HOVER ---------- */
+.card-wrapper:hover .face1,
+.card-wrapper.hover .face1 {
+    background: var(--f-green-0);
+    transition: all 0.3s ease-in-out;
+}
+
+.card-wrapper:hover .face1 *,
+.card-wrapper.hover .face1 * {
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+/* ---------- FACE 2 EXPAND ---------- */
+.card-wrapper:hover .face2,
+.card-wrapper.hover .face2 {
+    max-height: 40vh;
+    background-color: #f9f9f9;
+    color: black;
+
+    transition:
+        max-height 0.45s ease-in-out,
+        background-color 0.3s ease-in-out,
+        color 0.2s ease-in-out;
+}
+
+/* ================= UTILITIES ================= */
+.card-img {
+    width: clamp(80px, 5.5vw, 200px);
+}
+
+.gap-s {
+    gap: 5%;
+}
+
+.mj {
+    font-size: clamp(2rem, 2.5vw, 6rem);
+}
+
+.mjp {
+    font-size: clamp(0.8rem, 0.8vw, 2rem);
+}
+
+/* ================= DISABLED STATE ================= */
+.dis .card-wrapper {
+    position: relative;
+}
+
+.dis .card-wrapper::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 10;
+}

@@ -1,0 +1,51 @@
+#hero {
+    background: url('../public/images/sec1.jpg');
+    background-color: rgba(26, 43, 60, 0.8);    
+    background-size: cover;
+    overflow-y: scroll;
+    color: white;
+}
+
+#hero::-webkit-scrollbar {
+    display: none;
+}
+
+#hero .logo{
+    width: clamp(8rem, 14vw, 20rem);
+}
+
+#hero .otu{
+    font-weight: bold;
+    font-style: italic;
+    font-size: clamp(2rem, 1vw, 10rem);
+    margin-top: -50px;
+    @apply ms-10 text-[#B0BEC5] portrait-mobile:text-2xl portrait-mobile:text-center portrait-mobile:ms-[-5px] portrait-mobile:not-italic my-2;
+}
+
+#hero .op{
+    line-height: 0.9;
+    font-style: italic;
+    @apply text-[#42B694] ms-4  portrait-mobile:text-center portrait-mobile:ms-[-5px] portrait-mobile:not-italic;
+}
+
+#hero p, #hero b {
+    font-size: clamp(1rem, 1.5vw, 4rem);
+}
+
+#hero b {
+    text-shadow: 0 0 3px #ffffff;
+}
+
+#hero p {
+    text-align: justify;
+}
+
+@media (orientation: portrait) and (min-width: 767px){
+    #hero p {
+        font-size: clamp(1rem, 3.4vw, 4rem);
+    }
+
+    #hero b{
+        font-size: clamp(1rem, 3.1vw, 4rem);
+    }
+}

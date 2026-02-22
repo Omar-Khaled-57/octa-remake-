@@ -13,7 +13,7 @@ A modern, bilingual (English/Arabic) university website showcasing student proje
 
 ## 🛠️ Tech Stack
 
-- **Framework:** [Next.js 15](https://nextjs.org/) (App Router)
+- **Framework:** [Next.js 16](https://nextjs.org/) (App Router)
 - **UI Library:** [React 19](https://react.dev/)
 - **Styling:** [Tailwind CSS 3](https://tailwindcss.com/)
 - **Language:** [TypeScript](https://www.typescriptlang.org/)
@@ -68,5 +68,6 @@ A modern, bilingual (English/Arabic) university website showcasing student proje
 ├── tailwind.config.ts     # Tailwind configuration
 └── i18n.ts               # Internationalization setup
 ```
+
 
 

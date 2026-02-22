@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* -------------------- GLOBAL BASE STYLES -------------------- */
+html * {
+  scroll-behavior: smooth;
+}
+
+html {
+  @apply m-0 p-0 scroll-smooth overflow-x-hidden;
+}
+
+body {
+  @apply text-text bg-background;
+  font-synthesis: none;
+  overflow-x: hidden;
+}
+
+/* -------------------- OPTION MENU -------------------- */
+option {
+  @apply bg-background text-text;
+}
+
+option:hover {
+  @apply bg-background;
+}
+
+h1 {
+  font-size: clamp(20px, 1.8vw, 8rem);
+}
+
+/* --------------------- SECTIONS --------------------- */
+
+#sec3 {
+  background: var(--sec3-bg);
+}
+
+#sec3 .group {
+  @apply rounded-2xl p-6 md:p-8 shadow-lg hover:shadow-2xl transition-all
+  duration-300 border lg:col-span-1 border-sec3CardsBorder
+  bg-[var(--article-bg)] md:col-span-2
+}
+
+
+/* ------------------- INF. SCROLL ------------------- */
+
+@keyframes scroll-left {
+  from { transform: translateX(0); }
+  to { transform: translateX(-100%); }
+}
+
+@keyframes scroll-right {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(0); }
+}
+
+.animate-scroll-left {
+  animation: scroll-left 40s linear infinite;
+}
+
+.animate-scroll-right {
+  animation: scroll-right 40s linear infinite;
+}
+
+/* Respect user's motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .animate-scroll-left,
+  .animate-scroll-right {
+    animation-duration: 80s;
+    animation-timing-function: linear;
+  }
+}
+
+/* Pause animation on hover for better interaction */
+.animate-scroll-left:hover,
+.animate-scroll-right:hover {
+  animation-play-state: paused;
+}
+
+/* Ensure 3:2 aspect ratio is maintained */
+.aspect-\[3\/2\] {
+  aspect-ratio: 3/2;
+}

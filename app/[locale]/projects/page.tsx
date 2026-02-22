@@ -6,7 +6,7 @@ import { getTranslations } from "next-intl/server";
 import { MAJORS, SortOption, LEVEL_ORDER, LEVEL_TRANSLATION_KEYS } from "./constants";
 import ProjectsClientFilters from "../../../components/ProjectsClientFilters";
 
-const CardWatcher = dynamic(() => import("@/components/CardWatcher"), { ssr: false });
+const CardWatcher = dynamic(() => import("../../../components/CardWatcher"), { ssr: false });
 
 type Project = {
   id: string;
@@ -234,3 +234,4 @@ export default async function ProjectsPage({ params, searchParams }: ProjectsPag
   );
 
 }
+

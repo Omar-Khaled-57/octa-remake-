@@ -40,10 +40,11 @@ const leagueGothic = localFont({
 
 
 export async function generateMetadata({
-  params: { locale },
+  params,
 }: {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
+  const { locale } = await params;
   const messages: any = await getMessages({ locale });
   const siteUrl = "https://otu.edu.eg"; // Replace with actual domain
 
@@ -98,11 +99,12 @@ export async function generateMetadata({
 
 export default async function LocaleLayout({
   children,
-  params: { locale },
+  params,
 }: {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
+  const { locale } = await params;
   const messages = await getMessages({ locale });
   const dir = locale === "ar" ? "rtl" : "ltr";
 

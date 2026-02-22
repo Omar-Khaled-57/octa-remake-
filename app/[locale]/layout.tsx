@@ -44,7 +44,7 @@ async function LayoutContent({ children, locale }: { children: ReactNode; locale
 }
 
 // Sync default export for Next.js
-export default function LocaleLayout({ children, params }: LocaleLayoutProps) {
-  // Just render the async child
-  return <LayoutContent locale={params.locale}>{children}</LayoutContent>;
+export default function LocaleLayout({ children, params }: { children: React.ReactNode; params: { locale: string } }) {
+  const locale = params.locale; // extract synchronously
+  return <LayoutContent locale={locale}>{children}</LayoutContent>;
 }

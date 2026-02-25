@@ -182,7 +182,7 @@ export default function ProjectsClientFilters({
                         </button>
 
                         {showSortDropdown && (
-                            <div className="absolute right-0 mt-2 w-56 rounded-xl bg-cardBg border border-sec3CardsBorder shadow-lg z-10">
+                            <div className="absolute end-0 mt-2 w-56 rounded-xl bg-cardBg border border-sec3CardsBorder shadow-lg z-10">
                                 {SORT_OPTIONS.map((option) => (
                                     <button
                                         key={option.value}

@@ -36,7 +36,8 @@ export default async function ProjectsPage({ params, searchParams }: ProjectsPag
   const resolvedSearchParams = await searchParams;
 
   // Get translations
-  const tr = await getTranslations();
+  // const tr = await getTranslations();
+  const tr = await getTranslations({locale, namespace: 'Projects'});
 
   // Read projects.json content efficiently from FS
   const dataPath = path.join(process.cwd(), "public", "projects.json");

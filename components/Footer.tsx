@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react';
 import { useTR } from "@/useTR";
 import { useLocale } from "next-intl";
